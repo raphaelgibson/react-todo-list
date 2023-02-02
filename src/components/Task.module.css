@@ -1,0 +1,46 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  background: var(--gray-500);
+  padding: 1rem;
+  border-radius: 8px;
+  gap: 0.75rem;
+}
+
+.checkCircle {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: var(--purple-500);
+  cursor: pointer;
+}
+
+.circle {
+  color: var(--blue-300);
+  cursor: pointer;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: var(--gray-300);
+}
+
+.content {
+  width: 100%;
+}
+
+.unchecked {
+  color: var(--gray-100);
+}
+
+.trash {
+  color: var(--gray-300);
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 0.3125rem;
+  box-sizing: content-box;
+}
+
+.trash:hover {
+  color: var(--orange-500);
+  background: var(--gray-400);
+}

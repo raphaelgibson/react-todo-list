@@ -1,7 +1,14 @@
+import { Header } from './components/Header'
+import { TasksBoard } from './components/TasksBoard'
+
+import './global.css'
+
 function App() {
   return (
-    <div>
-    </div>
+    <>
+      <Header />
+      <TasksBoard />
+    </>
   )
 }
 
